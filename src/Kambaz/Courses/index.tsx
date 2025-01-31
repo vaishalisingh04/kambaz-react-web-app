@@ -17,12 +17,13 @@ export default function Courses() {
                     </td>
                     <td valign="top">
                         <Routes>
-                            <Route path="/" element={<Navigate to="/kambaz/Courses/1234/Home"/>}/>
+                            <Route path="/" element={<Navigate to="/Kambaz/Courses/1234/Home"/>}/>
                             <Route path="Home" element={<Home/>}/>
                             <Route path="Modules" element={<Modules/>}/>
                             <Route path="Assignments" element={<Assignments/>}/>
                             <Route path="Assignments/:aid" element={<AssignmentEditor/>}/>
                             <Route path="People" element={<h2>People</h2>}/>
+
                         </Routes>
                     </td>
                 </tr>

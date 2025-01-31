@@ -16,7 +16,6 @@ function AssignmentEditor() {
                         <input id="wd-points" value={100}/>
                     </td>
                 </tr>
-                {/* Complete on your own */}
                 <br/>
                 <tr>
                     <td align="right" valign="top">

@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 export default function Dashboard() {
     return (
         <div id="wd-dashboard">
-            <h1 id="wd-dashboard-title">Dashboardd</h1>
+            <h1 id="wd-dashboard-title">Dashboard</h1>
             <hr/>
-            <h2 id="wd-dashboard-published">Published Courses (05)</h2>
+            <h2 id="wd-dashboard-published">Published Courses (09)</h2>
             <hr/>
             <div id="wd-dashboard-courses">
                 <div className="wd-dashboard-course">
@@ -78,6 +78,66 @@ export default function Dashboard() {
                             </h5>
                             <p className="wd-dashboard-course-title">
                                 Full Stack software developer Unit5
+                            </p>
+                            <button> Go</button>
+                        </div>
+                    </Link>
+                </div>
+                <div className="wd-dashboard-course">
+                    <Link className="wd-dashboard-course-link"
+                          to="/Kambaz/Courses/1234/Home">
+                        <img src="/images/a.jpeg" width={300}/>
+                        <div>
+                            <h5>
+                                CS5555 React JS
+                            </h5>
+                            <p className="wd-dashboard-course-title">
+                                Full Stack software developer Unit6
+                            </p>
+                            <button> Go</button>
+                        </div>
+                    </Link>
+                </div>
+                <div className="wd-dashboard-course">
+                    <Link className="wd-dashboard-course-link"
+                          to="/Kambaz/Courses/1234/Home">
+                        <img src="/images/b.jpeg" width={300}/>
+                        <div>
+                            <h5>
+                                CS5555 React JS
+                            </h5>
+                            <p className="wd-dashboard-course-title">
+                                Full Stack software developer Unit7
+                            </p>
+                            <button> Go</button>
+                        </div>
+                    </Link>
+                </div>
+                <div className="wd-dashboard-course">
+                    <Link className="wd-dashboard-course-link"
+                          to="/Kambaz/Courses/1234/Home">
+                        <img src="/images/d.jpeg" width={300}/>
+                        <div>
+                            <h5>
+                                CS5555 React JS
+                            </h5>
+                            <p className="wd-dashboard-course-title">
+                                Full Stack software developer Unit8
+                            </p>
+                            <button> Go</button>
+                        </div>
+                    </Link>
+                </div>
+                <div className="wd-dashboard-course">
+                    <Link className="wd-dashboard-course-link"
+                          to="/Kambaz/Courses/1234/Home">
+                        <img src="/images/c.jpeg" width={300}/>
+                        <div>
+                            <h5>
+                                CS5555 React JS
+                            </h5>
+                            <p className="wd-dashboard-course-title">
+                                Revision Course (9)
                             </p>
                             <button> Go</button>
                         </div>
