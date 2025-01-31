@@ -2,6 +2,7 @@ function AssignmentEditor() {
     return (
         <div id="wd-assignments-editor">
             <label htmlFor="wd-name">Assignment Name</label>
+            <br/>
             <input id="wd-name" value="A1 - ENV + HTML"/><br/><br/>
             <textarea id="wd-description">
                 The assignment is available online Submit a link to the landing page of

@@ -7,9 +7,6 @@ import Courses from "./Courses";
 export default function Kambaz() {
     return (
         <div id="wd-Kambaz">
-            <h1>Welcome to Kambaz Learning Platform</h1>
-            <p>Your hub for courses, modules, and learning resources.</p>
-
             <table>
                 <tbody>
                 <tr>
